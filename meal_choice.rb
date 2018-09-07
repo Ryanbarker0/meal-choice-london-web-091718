@@ -4,3 +4,5 @@
 def meal_choice(preference = "meat")
   puts "#{preference}"
 end
+
+meal_choice("vegan")
