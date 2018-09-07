@@ -3,6 +3,7 @@
 
 def meal_choice(preference)
   puts "#{preference}"
+  binding.pry
 end
 
 meal_choice("vegan")
